@@ -25,7 +25,7 @@ st.write("Please enter the following details:")
 
 #user input
 geograpgy =  st.selectbox('Geography',  OneHot_encoder.categories_[0])
-gender = st.selectbox('Gender', label_encoder_gender.classes_)
+gender = st.selectbox('Gender', Label_encoder_gender.classes_)
 age = st.slider('Age', 18,92)
 balance = st.number_input('Balance')
 credit_score = st.number_input('Credit Score')
