@@ -15,8 +15,8 @@ with open('scaler.pkl', 'rb') as f:
 with open('OneHot_encoder.pkl', 'rb') as f:
     OneHot_encoder = pickle.load(f)
 
-with open('label_encoder_gender.pkl', 'rb') as f:
-    label_encoder_gender = pickle.load(f)
+with open('Label_encoder_gender.pkl', 'rb') as f:
+    Label_encoder_gender = pickle.load(f)
 
 ##streamlit app
 st.title("Customer Churn Prediction")
