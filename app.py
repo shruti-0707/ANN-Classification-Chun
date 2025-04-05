@@ -40,7 +40,7 @@ is_active_member = st.selectbox('Active Member', [0, 1])
 input_data = pd.DataFrame({
     'Geography': [geograpgy],
     'CreditScore': [credit_score],
-    'Gender' : [label_encoder_gender.transform([gender])[0]],
+    'Gender' : [Label_encoder_gender.transform([gender])[0]],
     'Age': [age],
     'Tenure': [tenure],
     'Balance': [balance],
