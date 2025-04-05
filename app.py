@@ -67,7 +67,8 @@ input_data_scaled = scaler.transform(input_data)
 prediction = model.predict(input_data_scaled)  
 prediction_prob = prediction[0][0] 
 
-
+print(prediction_prob)
+st.write("Prediction Probability: ", prediction_prob)
 if prediction_prob  > 0.5:
     st.success("The customer is likely to leave the bank.") 
 else:
